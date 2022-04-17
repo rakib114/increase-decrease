@@ -1,10 +1,11 @@
 .container {
-  height: 40vh;
+  height: 60vh;
   width: 30vw;
   background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 .second_heading {
   background-color: black;
@@ -13,10 +14,14 @@
   padding: 8px 20px;
   border-radius: 8px;
   margin-bottom: 45px;
+  width: 15vw;
 }
 .button_area {
+  width: 20vw;
   display: flex;
   gap: 45px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .btn {
   display: inline-block;
